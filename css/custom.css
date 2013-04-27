@@ -6,6 +6,7 @@ body {
 }
 h1, h2, h3 {
   font-weight: normal;
+  letter-spacing: 0;
   text-transform: uppercase;
 }
 @media(min-width: 870px) {
@@ -73,7 +74,7 @@ h1, h2, h3 {
   article {
     height: 100%;
     width: 100%;
-    padding: 5px;
+    padding: 15px 5px;
     border-left: 1px solid #d5d5d5;
   }
   article.first {
@@ -88,6 +89,7 @@ h1, h2, h3 {
     max-height: 75px;
     line-height: 1em;
     font-size: 0.85em;
+    letter-spacing: 0;
   }
 }
 

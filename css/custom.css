@@ -83,10 +83,15 @@ h2 {
     height: 100%;
     width: 100%;
     padding: 15px 5px;
-    border-left: 1px solid #d5d5d5;
+
   }
   article.first {
     border:none;
+    padding-left: 30px;
+  }
+  article.img {
+    background-image: url("../img/paddan_svart_vitt.jpg");
+    background-repeat: no-repeat;
   }
 
 

@@ -1,4 +1,25 @@
-.box {
-  background-color: teal;
-  margin: 0 auto;
+body {
+  text-align: center;
 }
+
+.container {
+  margin: 0px auto;
+  border: 1px solid silver;
+}
+.row-fluid {
+  border-bottom: 1px solid silver;
+  height: 355px;
+}
+
+.branding {
+  display: inline-block;
+  width: 40%;
+  float: left;
+  margin: 40px;
+  vertical-align: text-bottom;
+}
+
+footer {
+  background-color: teal;
+}
+

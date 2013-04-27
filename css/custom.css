@@ -1,54 +1,82 @@
-body {
+@media(min-width: 870px) {
+  body {
+    margin-top: 50px;
+  }
+  .container-fluid {
+    padding: 5px;
+    border: 1px solid #d5d5d5;
+  }
+  .row-fluid {
+    border-bottom: 1px solid #d5d5d5;
+    height: 355px;
+  }
 
+  /* Header ------------------------------------------------------------------- */
+
+  header {
+    padding-bottom: 5px;
+    text-align: right;
+  }
+  header .branding {
+    margin: 45px 0 40px 50px;
+    display: inline-block;
+    width: 40%;
+    float: left;
+    vertical-align: text-bottom;
+  }
+
+  /* Navigation --------------------------------------------------------------- */
+
+
+  .navbar-inverse .navbar-inner {
+    padding: 0 0 0 10px;
+    font-family: Georgia, serif;
+    text-transform: uppercase;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+
+  .navbar .nav {
+
+  }
+
+  .navbar .nav > li > a {
+    color: #fff;
+    text-shadow: none;
+
+  }
+  .navbar .nav > li > a:hover {
+    color: #111212;
+    background-color: #b4221a;
+  }
+
+
+
+  /* Sections ----------------------------------------------------------------- */
+  article {
+    height: 100%;
+    width: 100%;
+    border-right: 1px solid #d5d5d5;
+  }
+
+
+  /* Footer ------------------------------------------------------------------- */
+
+  footer {
+    max-height: 60px;
+    line-height: 1em;
+    background-color: teal;
+  }
 }
 
-.container-fluid {
-  width: 870px;
-  padding: 5px;
-  border: 1px solid silver;
-  margin-left:auto;
-  margin-right: auto;
-}
-.row-fluid {
-  border-bottom: 1px solid silver;
-  height: 355px;
+@media (max-width: 979px) and (min-width: 768px) {
+  header {
+    padding-bottom: 5px;
+    text-align: left;
+  }
 }
 
-/* Header ------------------------------------------------------------------- */
+@media (max-width: 767px) {
 
-header {
-  padding-bottom: 5px;
-  text-align: right;
 }
-header .branding {
-  margin: 45px 0 40px 50px;
-  display: inline-block;
-  width: 40%;
-  float: left;
-  vertical-align: text-bottom;
-}
-
-/* Navigation --------------------------------------------------------------- */
-
-.navbar-inverse .navbar-inner {
-  padding: 0;
-  font-family: Georgia, serif;
-  font-size: 0.9em;
-  text-transform: uppercase;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-}
-
-/* Sections ----------------------------------------------------------------- */
-
-
-
-/* Footer ------------------------------------------------------------------- */
-
-footer {
-  max-height: 60px;
-  line-height: 1em;
-  background-color: teal;
-}
-

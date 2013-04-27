@@ -80,10 +80,8 @@ h2 {
   }
 
   article {
-    height: 100%;
-    width: 100%;
-    padding: 15px 5px;
-    border-left: 1px solid #d5d5d5;
+    width: 50%;
+    float: left;
   }
   article.first {
     border:none;

@@ -4,13 +4,16 @@ body {
 
 .container {
   margin: 0px auto;
+  padding: 5px;
   border: 1px solid silver;
 }
 .row-fluid {
   border-bottom: 1px solid silver;
   height: 355px;
 }
+header {
 
+}
 .branding {
   display: inline-block;
   width: 40%;

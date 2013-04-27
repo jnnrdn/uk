@@ -22,7 +22,7 @@ h2 {
     margin-top: 60px;
   }
   .container-fluid {
-    padding: 5px;
+
   }
   .row-fluid {
     height: 355px;
@@ -74,7 +74,7 @@ h2 {
 
 
   /* Sections ----------------------------------------------------------------- */
-  .inside {
+  .content {
     margin-bottom: 5px;
     border: 1px solid #d5d5d5;
   }
@@ -98,6 +98,7 @@ h2 {
     line-height: 1em;
     font-size: 0.85em;
     letter-spacing: 0;
+    border: 1px solid #d5d5d5;
   }
 }
 

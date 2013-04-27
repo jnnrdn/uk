@@ -1,28 +1,50 @@
 body {
-  text-align: center;
+
 }
 
-.container {
-  margin: 0px auto;
+.container-fluid {
+  width: 870px;
   padding: 5px;
   border: 1px solid silver;
+  margin-left:auto;
+  margin-right: auto;
 }
 .row-fluid {
   border-bottom: 1px solid silver;
   height: 355px;
 }
-header {
 
+/* Header ------------------------------------------------------------------- */
+
+header {
+  padding-bottom: 5px;
+  text-align: right;
 }
-.branding {
+header .branding {
+  margin: 45px 0 40px 50px;
   display: inline-block;
   width: 40%;
   float: left;
-  margin: 40px;
   vertical-align: text-bottom;
 }
 
+/* Navigation --------------------------------------------------------------- */
+
+.navbar-inverse .navbar-inner {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+/* Sections ----------------------------------------------------------------- */
+
+
+
+/* Footer ------------------------------------------------------------------- */
+
 footer {
+  max-height: 60px;
+  line-height: 1em;
   background-color: teal;
 }
 

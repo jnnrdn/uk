@@ -64,7 +64,11 @@
   article {
     height: 100%;
     width: 100%;
-    background-color: yellow;
+    padding: 5px;
+    border-right: 1px solid #d5d5d5;
+  }
+  article.last {
+    border:none;
   }
 
 

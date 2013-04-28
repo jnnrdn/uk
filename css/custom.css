@@ -11,12 +11,16 @@ h1, h2, h3 {
 }
 h1 {
   font-size: 2em;
+  line-height: 1.5em;
 }
 h2 {
   color: #b4221a;
   line-height: 0;
   font-size: 1.1em;
   padding-top: 15px;
+}
+hr {
+  color: rgb(92,92,92);
 }
 @media(min-width: 870px) {
   body {
@@ -81,7 +85,8 @@ h2 {
 
   article {
     height: 335px;
-    width: 30%;
+    width: 290px;
+    min-width: 30%;
     float: left;
     padding: 10px 15px;
 
@@ -103,7 +108,13 @@ h2 {
     background-color: #d7d1ca;
     margin-left: 0;
   }
-
+  article.quote {
+    padding-top: 50px;
+  }
+  article.quote p {
+    padding: 20px 30px;
+  }
+  article.last {}
 
   /* Footer ------------------------------------------------------------------- */
 
@@ -112,15 +123,14 @@ h2 {
     max-height: 75px;
     line-height: 1em;
     font-size: 0.85em;
-    letter-spacing: 0;
   }
 }
-
 @media (max-width: 979px) and (min-width: 768px) {
   header {
     padding-bottom: 5px;
     text-align: left;
   }
+
 }
 
 @media (max-width: 767px) {

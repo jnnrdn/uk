@@ -1,7 +1,7 @@
 body {
   color: rgb(92,92,92);
-  letter-spacing: 0.1em;
   text-align: center;
+  line-height: 1.5;
   font-family: Tahoma, sans-serif;
 }
 h1, h2, h3 {
@@ -12,7 +12,6 @@ h1, h2, h3 {
 h1 {
   font-size: 2em;
   line-height: 1.5em;
-  font-family: 'Times new roman', serif;
 }
 h2 {
   color: #b4221a;
@@ -96,11 +95,18 @@ hr {
     width: 49.95%;
     float: left;
   }
+  section .box p {
+    padding: 0 20px;
+  }
 
   /* Aside ------------------------------------------------------------------ */
   aside {
     width: 33.3%;
     float: left;
+  }
+  aside article {
+    margin: 0 20px;
+    border-bottom: 1px solid gray;
   }
 
   /* Footer ----------------------------------------------------------------- */

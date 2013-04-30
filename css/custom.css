@@ -23,6 +23,9 @@ h2 {
 hr {
   color: rgb(92,92,92);
 }
+ul, p.left {
+  text-align: left;
+}
 @media (min-width: 1200px) {
   body {
     margin-top: 60px;
@@ -121,6 +124,25 @@ hr {
   }
   section .box.quote p {
     padding: 0 25px;
+  }
+  section .box.left {
+    padding-bottom: 20px;
+  }
+  section .box.left p {
+    text-align: left;
+    line-height: 1.3em;
+    padding: 0px 20px;
+  }
+  section .box.img {
+    padding-top: 50px;
+  }
+  section .box.sem {
+    padding-top: 20px;
+    border-top: 1px dashed #d5d5d5;
+  }
+  section .box.sem p.left,
+  section .box.sem ul {
+    padding: 0 20px;
   }
 
   /* Footer ----------------------------------------------------------------- */

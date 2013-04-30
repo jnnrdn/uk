@@ -23,7 +23,7 @@ h2 {
 hr {
   color: rgb(92,92,92);
 }
-@media(min-width: 870px) {
+@media (min-width: 1200px) {
   body {
     margin-top: 60px;
   }
@@ -31,7 +31,7 @@ hr {
     padding: 5px;
   }
   .row-fluid {
-    height: 355px;
+    width: 99.75%;
   }
 
   /* Header ------------------------------------------------------------------- */
@@ -76,54 +76,37 @@ hr {
     background-color: #b4221a;
   }
 
-
-
-  /* Sections ----------------------------------------------------------------- */
-  .inside {
-    margin-bottom: 5px;
+  /* Main content ----------------------------------------------------------- */
+  .main {
     border: 1px solid #d5d5d5;
   }
+  .main p {
+    padding: 10px;
+  }
 
-  article {
-    height: 335px;
-    width: 290px;
-    min-width: 30%;
+  /* Sections --------------------------------------------------------------- */
+  .main section {
     float: left;
-    padding: 10px 15px;
+    width: 66.66666%;
+    background-color: aqua;
+  }
+  section .box {
+    width: 49.95%;
+    float: left;
+    background-color: green;
+  }
 
+  /* Aside ------------------------------------------------------------------ */
+  aside {
+    width: 33.3%;
+    float: left;
+    background-color: #d5d5d5;
   }
-  article.first {
-    border:none;
-  }
-  article.img {
-    background-image: url("../img/paddan_svart_vitt.jpg");
-    background-repeat: repeat-y;
-    overflow: hidden;
 
-  }
-  article.news {
-    color: rgb(16,16,16);
-    text-align: left;
-    font-style: italic;
-    padding-left: 21px;
-    letter-spacing: 0;
-    background-color: #d7d1ca;
-    margin-left: 0;
-  }
-  article.quote {
-  }
-  article.quote p {
-    padding: 20px 30px;
-  }
-  article.last {}
-
-  /* Footer ------------------------------------------------------------------- */
+  /* Footer ----------------------------------------------------------------- */
 
   footer {
-    padding: 20px 0;
-    max-height: 75px;
-    line-height: 1em;
-    font-size: 0.85em;
+    clear: both;
   }
 }
 @media (max-width: 979px) and (min-width: 768px) {

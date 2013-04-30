@@ -7,7 +7,7 @@ body {
 h1, h2, h3 {
   font-weight: normal;
   letter-spacing: 0;
-  text-transform: uppercase;
+  text-rendering: optimizelegibility;
 }
 h1 {
   font-size: 2em;
@@ -18,6 +18,7 @@ h2 {
   line-height: 0;
   font-size: 1.1em;
   padding-top: 15px;
+  text-transform: uppercase;
 }
 hr {
   color: rgb(92,92,92);
@@ -54,11 +55,6 @@ hr {
 
   .navbar-inverse .navbar-inner {
     padding: 0 0 0 10px;
-    text-transform: uppercase;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    letter-spacing: 0;
   }
 
   .navbar {
@@ -66,13 +62,11 @@ hr {
   }
 
   .navbar .nav > li > a {
-    color: #fff;
-    text-shadow: none;
 
+    padding: 10px 20px 10px;
   }
   .navbar .nav > li > a:hover {
-    color: #111212;
-    background-color: #b4221a;
+    color: #fff;
   }
 
   /* Main content ----------------------------------------------------------- */
@@ -82,7 +76,24 @@ hr {
     border: 1px solid #d5d5d5;
   }
   .main p {
-    padding: 10px;
+    padding: 0 10px;
+  }
+
+  /* Aside ------------------------------------------------------------------ */
+  aside {
+    color: charcoal;
+    width: 33.3%;
+    float: left;
+    text-align: center;
+  }
+  aside article {
+    margin: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    border-bottom: 1px solid gray;
+  }
+  aside article.first {
+    margin-top: 0;
   }
 
   /* Sections --------------------------------------------------------------- */
@@ -98,15 +109,11 @@ hr {
   section .box p {
     padding: 0 20px;
   }
-
-  /* Aside ------------------------------------------------------------------ */
-  aside {
-    width: 33.3%;
-    float: left;
+  section .box.quote {
+    padding: 60px 0 0 0;
   }
-  aside article {
-    margin: 0 20px;
-    border-bottom: 1px solid gray;
+  section .box.quote p {
+    padding: 0 25px;
   }
 
   /* Footer ----------------------------------------------------------------- */

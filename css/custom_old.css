@@ -1,29 +1,29 @@
 body {
   color: rgb(92,92,92);
+  letter-spacing: 0.1em;
   text-align: center;
-  line-height: 1.5;
   font-family: Tahoma, sans-serif;
 }
 h1, h2, h3 {
   font-weight: normal;
   letter-spacing: 0;
-  text-rendering: optimizelegibility;
+  text-transform: uppercase;
 }
 h1 {
   font-size: 2em;
   line-height: 1.5em;
+  font-family: 'Times new roman', serif;
 }
 h2 {
   color: #b4221a;
   line-height: 0;
   font-size: 1.1em;
   padding-top: 15px;
-  text-transform: uppercase;
 }
 hr {
   color: rgb(92,92,92);
 }
-@media (min-width: 1200px) {
+@media(min-width: 870px) {
   body {
     margin-top: 60px;
   }
@@ -31,7 +31,7 @@ hr {
     padding: 5px;
   }
   .row-fluid {
-    width: 99.75%;
+    height: 355px;
   }
 
   /* Header ------------------------------------------------------------------- */
@@ -69,69 +69,61 @@ hr {
   .navbar .nav > li > a {
     color: #fff;
     text-shadow: none;
-    padding: 10px 20px 10px;
+
   }
   .navbar .nav > li > a:hover {
     color: #111212;
     background-color: #b4221a;
   }
 
-  /* Main content ----------------------------------------------------------- */
-  .main {
+
+
+  /* Sections ----------------------------------------------------------------- */
+  .inside {
     margin-bottom: 5px;
-    background-color: #d5d5d5;
     border: 1px solid #d5d5d5;
   }
-  .main p {
-    padding: 0 10px;
-  }
 
-  /* Aside ------------------------------------------------------------------ */
-  aside {
-    color: charcoal;
-    width: 33.3%;
+  article {
+    height: 335px;
+    width: 290px;
+    min-width: 30%;
     float: left;
-    text-align: center;
+    padding: 10px 15px;
+
   }
-  aside article {
-    margin: 20px;
-    padding-bottom: 20px;
+  article.first {
+    border:none;
+  }
+  article.img {
+    background-image: url("../img/paddan_svart_vitt.jpg");
+    background-repeat: repeat-y;
+    overflow: hidden;
+
+  }
+  article.news {
+    color: rgb(16,16,16);
     text-align: left;
-    border-bottom: 1px solid gray;
+    font-style: italic;
+    padding-left: 21px;
+    letter-spacing: 0;
+    background-color: #d7d1ca;
+    margin-left: 0;
   }
-  aside article.first {
-    margin-top: 0;
+  article.quote {
   }
+  article.quote p {
+    padding: 20px 30px;
+  }
+  article.last {}
 
-  /* Sections --------------------------------------------------------------- */
-  .main section {
-    float: left;
-    width: 66.66666%;
-    background-color: #fff;
-  }
-  section .box {
-    width: 49.95%;
-    float: left;
-  }
-  section .box p {
-    padding: 0 20px;
-  }
-  section .box.quote {
-    padding: 60px 0 0 0;
-  }
-  section .box.quote p {
-    padding: 0 25px;
-  }
-
-  /* Footer ----------------------------------------------------------------- */
+  /* Footer ------------------------------------------------------------------- */
 
   footer {
-    clear: both;
     padding: 20px 0;
     max-height: 75px;
     line-height: 1em;
     font-size: 0.85em;
-    border: 1px solid #d5d5d5;
   }
 }
 @media (max-width: 979px) and (min-width: 768px) {

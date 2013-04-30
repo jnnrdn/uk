@@ -78,6 +78,7 @@ hr {
 
   /* Main content ----------------------------------------------------------- */
   .main {
+    margin-bottom: 5px;
     background-color: #d5d5d5;
     border: 1px solid #d5d5d5;
   }
@@ -89,12 +90,11 @@ hr {
   .main section {
     float: left;
     width: 66.66666%;
-    background-color: aqua;
+    background-color: #fff;
   }
   section .box {
     width: 49.95%;
     float: left;
-    background-color: green;
   }
 
   /* Aside ------------------------------------------------------------------ */
@@ -107,6 +107,11 @@ hr {
 
   footer {
     clear: both;
+    padding: 20px 0;
+    max-height: 75px;
+    line-height: 1em;
+    font-size: 0.85em;
+    border: 1px solid #d5d5d5;
   }
 }
 @media (max-width: 979px) and (min-width: 768px) {

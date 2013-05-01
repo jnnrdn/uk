@@ -11,7 +11,7 @@ h1, h2, h3 {
 }
 h1 {
   font-size: 2em;
-  line-height: 1.5em;
+  line-height: 1.2em;
 }
 h2 {
   color: #b4221a;
@@ -114,6 +114,7 @@ ul, p.left {
   section .box {
     width: 49.95%;
     float: left;
+    word-wrap: break-word;
   }
   section .box p {
     padding: 0 20px;
@@ -135,8 +136,12 @@ ul, p.left {
   section .box.left h1,
   section .box.left h2 {
     text-align: left;
-    line-height: 1.3em;
+    line-height: 1.2;
     padding: 0px 20px;
+  }
+  section .box.left p,
+  section .box.left ul {
+    line-height: 1.3em;
   }
   section .box.img-grow {
     padding-top: 60px;
@@ -163,6 +168,9 @@ ul, p.left {
   }
   section .box.img-narrow {
     text-align: right;
+  }
+  section .box img {
+    width: 100%;
   }
   section .box.top-border {
     border-top: 1px solid #d5d5d5;

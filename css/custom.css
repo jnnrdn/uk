@@ -64,6 +64,7 @@ blockquote {
 
 
   .navbar-inverse .navbar-inner {
+    font-family: Georgia, serif;
     padding: 0 0 0 10px;
     text-transform: uppercase;
     -webkit-border-radius: 0;
@@ -78,7 +79,7 @@ blockquote {
 
   .navbar .nav > li > a {
     text-shadow: none;
-    padding: 10px 20px 10px;
+    padding: 10px 15px 10px;
   }
   .navbar .nav > li > a:hover {
     color: #111212;

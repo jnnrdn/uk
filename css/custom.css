@@ -130,6 +130,9 @@ blockquote {
   section .box ul {
     padding: 0 20px;
   }
+  section .box ul li {
+    margin-bottom: 5px;
+  }
   section .box.quote {
     height: 265px;
     padding: 60px 0 0 0;

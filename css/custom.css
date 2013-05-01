@@ -15,7 +15,7 @@ h1 {
   margin: 20px 20px 10px 20px;
 }
 h2 {
-  color: #953D38;
+  color: #9B2525;
   line-height: 0;
   font-size: 1.1em;
   padding-top: 15px;
@@ -83,7 +83,7 @@ blockquote {
   }
   .navbar .nav > li > a:hover {
     color: #111212;
-    background-color: #953D38;
+    background-color: #9B2525;
   }
 
   /* Main content ----------------------------------------------------------- */
@@ -210,7 +210,7 @@ blockquote {
     padding: 30px;
   }
   .end-msg .red {
-    color: #953D38;
+    color: #9B2525;
   }
 
   /* Footer ----------------------------------------------------------------- */

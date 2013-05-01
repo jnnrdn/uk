@@ -14,7 +14,7 @@ h1 {
   line-height: 1.2em;
 }
 h2 {
-  color: #b4221a;
+  color: #953D38;
   line-height: 0;
   font-size: 1.1em;
   padding-top: 15px;
@@ -34,7 +34,7 @@ blockquote {
 }
 @media (min-width: 1200px) {
   body {
-    margin-top: 60px;
+    margin-top: 30px;
   }
   .container-fluid {
     padding: 5px;
@@ -81,7 +81,7 @@ blockquote {
   }
   .navbar .nav > li > a:hover {
     color: #111212;
-    background-color: #b4221a;
+    background-color: #953D38;
   }
 
   /* Main content ----------------------------------------------------------- */
@@ -190,8 +190,22 @@ blockquote {
   section .box img {
     width: 100%;
   }
+  section .box.img-profile img {
+    width: auto;
+    padding: 30px 20px 10px 20px;
+  }
   section .box.top-border {
     border-top: 1px solid #d5d5d5;
+  }
+  .contact {
+    font-size: 18px;
+    line-height: 1em;
+  }
+  .end-msg {
+    padding: 30px;
+  }
+  .end-msg .red {
+    color: #953D38;
   }
 
   /* Footer ----------------------------------------------------------------- */
